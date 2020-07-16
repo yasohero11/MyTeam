@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/1b6dbc5d1f.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <title>Document</title>
+  <link rel="stylesheet" href="../Styles/comments.css">
+  <link rel="stylesheet" href="../Styles/glowing-button.css">
+  <link rel="stylesheet" href="../Styles/layoutStyle.css">
+  <link rel="stylesheet" href="../Styles/profile.css">
+
+
+</head>
+
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="index.html">
+      <img
+        src="https://cdn1.iconfinder.com/data/icons/education-and-science-13/32/education_creative_idea_idea_book_creative_learning-512.png">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+      <!-- data target: is the items that you wanted in the slider-->
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav">
+        <li class="nav-item items">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item items">
+          <a class="nav-link" href="courses.html">Courses</a>
+        </li>
+        <li class="nav-item items">
+          <a class="nav-link" href="activities.html">Activities</a>
+        </li>
+        <li class="nav-item items">
+          <a class="nav-link" href="comptitions.html">Comptitions</a>
+        </li>
+        <li class="nav-item items">
+          <a class="nav-link" href="aboutUs.html">About Us</a>
+        </li>
+
+        <li class="nav-item ml-auto"><a href="signup.html" id="loginBtn" class="nav-link">Login / Sign up</a></li>
+
+        <li id="profileIcon">
+          <a href="profile.html">
+           <div id="profile">
+              <img src="../mark_aben3amy.jpg">            
+              <div id="nat"></div>
+            </div>
+        </a>
+        </li>
+
+
+        <li id="searchBtn" class="nav-item"><a class="nav-link" href="/search" style="font-size: 20px"><i
+              class="fas fa-search"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <div class="container">
+    <div class="row" style="padding: 0px; margin: 0px; background: linear-gradient(to right bottom, #c31432, #240b36);">
+      <div class="col-md-6   col-xs-8" style="padding: 0px; ;">
+        <img class="img-fluid" src="https://vecamspot.com/wp-content/uploads/2019/04/Mark-Zuckerberg-560x416.png">
+      </div>
+      <div class="col-md-6 bio">
+        <h4>My Bio</h4>
+        <p><i class="far fa-user"></i> Name: User Name</p>
+        <p><i class="fas fa-user-clock"></i> Age: 21</p>
+        <p><i class="fas fa-percentage"></i> GPA: 3.18</p>
+        <p><i class="fas fa-user-graduate"></i> Student Degree: Bacaloria</p>
+        <p><i class="fab fa-periscope"></i> Address: City area Number</p>
+      </div>
+    </div>
+    <div class="row text-center" style="padding: 0px; margin: 0px; margin-bottom: 25px;">
+      <div class="col-3 bioInfo">
+        <h5>Courses</h5>
+        <strong class="num">50</strong>
+      </div>
+      <div class="col-3 bioInfo">
+        <h5>Posts</h5>
+        <strong class="num">143</strong>
+      </div>
+      <div class="col-3 bioInfo">
+        <h5>Awords</h5>
+        <strong class="num">4</strong>
+      </div>
+      <div class="col-3 bioInfo">
+        <a href="#">
+          <div>
+            <h5>My Courses</h5>
+            <strong><i class="fas fa-arrow-right"></i></strong>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+    <h3 class="title display-3"> Posts</h3>
+
+    <section class=" col-md-10 col-sm-12 col-xs-12 p-0" style="margin: auto;">
+
+
+      <div class="card" style="width:100%; margin-bottom: 20px;">
+        <div class="m-2">
+          <img class="post-logo" style="width: 50px; height: 50px;" src="../tree.webp">
+          <span>7/15/2020 2:12</span>
+        </div>
+        <img class="card-img-top" src="../news1.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">
+            news1
+          </h4>
+          <p class="card-text">
+            Some text here
+          </p>
+          <div class="comments-area border m-2">
+            <div class="comments">
+              <h4> Comments</h4>
+
+
+              <div class="comment">
+                <div class=" media  p-3">
+                  <img src="../tree.webp" alt="John Doe" class="mr-2" style="width:60px; height: 60px;">
+                  <div class="media-body">
+                    <h6>
+                      Youssef Osama <small><i>Posted on 7/15/2020 2:15</i></small>
+                    </h6>
+                    <p>
+                      some comment
+                    </p>
+                  </div>
+                </div>
+
+                <div style="text-align: right; color: rgb(28, 92, 211); clear: both; margin-bottom: 10px ;">
+                  <a href="#" class="p-1">Replay</a></div>
+
+              </div>
+
+
+            </div>
+            <hr>
+            <form class="comment-field onsubmit=" event.preventDefault();">
+              <input type="text" placeholder="Write your comment here ..." style="padding-left: 10px;">
+            </form>
+
+          </div>
+
+
+        </div>
+      </div>
+      <div class="card" style="width:100%; margin-bottom: 20px;">
+        <div class="m-2">
+          <img class="post-logo" style="width: 50px; height: 50px;" src="../tree.webp">
+          <span>7/15/2020 2:12</span>
+        </div>
+        <img class="card-img-top" src="../news1.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">
+            news1
+          </h4>
+          <p class="card-text">
+            Some text here
+          </p>
+          <div class="comments-area border m-2">
+            <div class="comments">
+              <h4> Comments</h4>
+
+
+              <div class="comment">
+                <div class=" media  p-3">
+                  <img src="../tree.webp" alt="John Doe" class="mr-2" style="width:60px; height: 60px;">
+                  <div class="media-body">
+                    <h6>
+                      Youssef Osama <small><i>Posted on 7/15/2020 2:15</i></small>
+                    </h6>
+                    <p>
+                      some comment
+                    </p>
+                  </div>
+                </div>
+
+                <div style="text-align: right; color: rgb(28, 92, 211); clear: both; margin-bottom: 10px ;">
+                  <a href="#" class="p-1">Replay</a></div>
+
+              </div>
+
+
+            </div>
+            <hr>
+            <form class="comment-field onsubmit=" event.preventDefault();">
+              <input type="text" placeholder="Write your comment here ..." style="padding-left: 10px;">
+            </form>
+
+          </div>
+
+
+        </div>
+      </div>
+      <div class="card" style="width:100%; margin-bottom: 20px;">
+        <div class="m-2">
+          <img class="post-logo" style="width: 50px; height: 50px;" src="../tree.webp">
+          <span>7/15/2020 2:12</span>
+        </div>
+        <img class="card-img-top" src="../news1.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">
+            news1
+          </h4>
+          <p class="card-text">
+            Some text here
+          </p>
+          <div class="comments-area border m-2">
+            <div class="comments">
+              <h4> Comments</h4>
+
+
+              <div class="comment">
+                <div class=" media  p-3">
+                  <img src="../tree.webp" alt="John Doe" class="mr-2" style="width:60px; height: 60px;">
+                  <div class="media-body">
+                    <h6>
+                      Youssef Osama <small><i>Posted on 7/15/2020 2:15</i></small>
+                    </h6>
+                    <p>
+                      some comment
+                    </p>
+                  </div>
+                </div>
+
+                <div style="text-align: right; color: rgb(28, 92, 211); clear: both; margin-bottom: 10px ;">
+                  <a href="#" class="p-1">Replay</a></div>
+
+              </div>
+
+
+            </div>
+            <hr>
+            <form class="comment-field onsubmit=" event.preventDefault();">
+              <input type="text" placeholder="Write your comment here ..." style="padding-left: 10px;">
+            </form>
+
+          </div>
+
+
+        </div>
+      </div>
+      <div class="card" style="width:100%; margin-bottom: 20px;">
+        <div class="m-2">
+          <img class="post-logo" style="width: 50px; height: 50px;" src="../tree.webp">
+          <span>7/15/2020 2:12</span>
+        </div>
+        <img class="card-img-top" src="../news1.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">
+            news1
+          </h4>
+          <p class="card-text">
+            Some text here
+          </p>
+          <div class="comments-area border m-2">
+            <div class="comments">
+              <h4> Comments</h4>
+
+
+              <div class="comment">
+                <div class=" media  p-3">
+                  <img src="../tree.webp" alt="John Doe" class="mr-2" style="width:60px; height: 60px;">
+                  <div class="media-body">
+                    <h6>
+                      Youssef Osama <small><i>Posted on 7/15/2020 2:15</i></small>
+                    </h6>
+                    <p>
+                      some comment
+                    </p>
+                  </div>
+                </div>
+
+                <div style="text-align: right; color: rgb(28, 92, 211); clear: both; margin-bottom: 10px ;">
+                  <a href="#" class="p-1">Replay</a></div>
+
+              </div>
+
+
+            </div>
+            <hr>
+            <form class="comment-field onsubmit=" event.preventDefault();">
+              <input type="text" placeholder="Write your comment here ..." style="padding-left: 10px;">
+            </form>
+
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+  </div>
+  <footer class="page-footer font-small stylish-color-dark pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">PROUCTS</h5>
+
+          <ul class="list-unstyled">
+
+            <li>
+              <a href="#!"><i class="fas fa-university"></i> Education</a>
+            </li>
+            <li>
+              <a href="#!"><i class="fas fa-book-open"></i> Courses</a>
+            </li>
+            <li>
+              <a href="#!"><i class="fas fa-trophy"></i> competitions </a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">ABOUT US</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!"><i class="fas fa-info-circle"></i> Support</a>
+            </li>
+            <li>
+              <a href="#!"><i class="fab fa-gofore"></i> Features</a>
+            </li>
+            <li>
+              <a href="#!"><i class="fas fa-headset"></i> Help</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">CONTUCT US</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!"><i class="fas fa-phone-alt"></i> 01150000</a>
+            </li>
+            <li>
+              <a href="#!"><i class="fas fa-map-marker-alt"></i> Cairo,1212 street, Egypt </a>
+            </li>
+            <li>
+              <a href="#!"><i class="far fa-envelope-open"></i> any@gamil.com</a>
+            </li>
+
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Call to action -->
+
+    <hr>
+
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="glowing facebook list-inline-item">
+        <a class=" btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item glowing twitter">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item glowing google">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus-g"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item glowing in">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item glowing orange">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-dribbble"> </i>
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© Guess What! Made with Love <i style="color: rgb(83, 221, 255);"
+        class="far fa-heart"></i>
+      <a href="https://github.com/yasohero11/My-awesome-group-"> Project <i class="fab fa-github-alt"></i></a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+  integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+  integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk=" crossorigin="anonymous"></script>
+  <script src="../javascript/js.js"></script>
+  <script>
+    function animateValue(obj, start, end, duration) {
+      var range = end - start;
+      var current = start;
+      var increment = end > start ? 1 : -1;
+     
+      var stepTime = Math.abs(Math.floor(duration / range));     
+      var timer = setInterval(function () {
+        current += increment;
+        obj.innerHTML = current;
+        if (current == end) {
+          clearInterval(timer);
+        }
+      }, stepTime);
+    }
+
+    //animateValue("value", 25,100, 5000);
+
+    nums = document.querySelectorAll(".num")
+    for(num of nums)
+     animateValue(num, 0,num.innerHTML, 3000);
+
+  </script>
+
+</body>
+
+</html>

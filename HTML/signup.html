@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1b6dbc5d1f.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="../Styles/layoutStyle.css">
+    <link rel="stylesheet" href="../Styles/signupStyle.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="index.html">
+      <img
+        src="https://cdn1.iconfinder.com/data/icons/education-and-science-13/32/education_creative_idea_idea_book_creative_learning-512.png">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+      <!-- data target: is the items that you wanted in the slider-->
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav">
+        <li class="nav-item items">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item items">
+          <a class="nav-link" href="courses.html">Courses</a>
+        </li>
+        <li class="nav-item items">
+          <a class="nav-link" href="activities.html">Activities</a>
+        </li>
+        <li class="nav-item items">
+          <a class="nav-link" href="comptitions.html">Comptitions</a>
+        </li>
+        <li class="nav-item items">
+          <a class="nav-link" href="aboutUs.html">About Us</a>
+        </li>
+
+        <li class="nav-item ml-auto"><a href="signup.html" id="loginBtn" class="nav-link">Login / Sign up</a></li>
+
+        <li id="profileIcon">
+          <a href="profile.html">
+           <div id="profile">
+              <img src="../mark_aben3amy.jpg">            
+              <div id="nat"></div>
+            </div>
+        </a>
+        </li>
+
+
+        <li id="searchBtn" class="nav-item"><a class="nav-link" href="/search" style="font-size: 20px"><i
+              class="fas fa-search"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk=" crossorigin="anonymous"></script>
+     <script src="../js.js"></script>
+    <div class="container-fluid" style="margin-top: 70px;">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-7 col-xs-12" id="con" >
+                    <div id="motion" class="right"></div>
+                    <form  id="loginForm" >
+                        <div><button id="toSignup" style="border-radius: 20px; padding-left: 6px ;" type="button" class="btn btn-outline-dark"><i class="fas fa-chevron-left"></i> Sign up</button></div>
+                        <div class="follow_us" style="margin: 20px 0px 60px 0px ;">
+                          <button   type="button" class="btn btn-outline-dark">  <i class="fab fa-facebook"></i></button>
+                          <button   type="button" class="btn btn-outline-dark">  <i class="fab fa-google"></i></button>
+                          <button   type="button" class="btn btn-outline-dark">  <i class="fab fa-instagram"></i></button>
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email address:</label>
+                          <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                          <label for="pwd">Password:</label>
+                          <input type="password" class="form-control" id="pwd">
+                        </div>
+                        <div class="form-group form-check">
+                          <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox"> Remember me
+                          </label>
+                        </div>
+                        <div style="text-align: center;"  ><button type="submit" id="skipBtn" class="btn btn-primary">Skip</button></div>
+                        <div style="text-align: center;"  ><button type="submit" id="loginSubmit" class="btn btn-primary">Submit</button></div>
+                        
+                        
+                      </form>
+
+                      <form action="" id="signupForm" style="background: white;">
+                        <div style="text-align: right;"><button id="toLogin" style="border-radius: 20px; padding-right: 6px ;" type="button" class="btn btn-outline-dark"> Login <i class="fas fa-chevron-right"></i></button></div>
+                        <div class="follow_us" style="margin-top: 20px ;">
+                          <button   type="button" class="btn btn-outline-dark">  <i class="fab fa-facebook"></i></button>
+                          <button   type="button" class="btn btn-outline-dark">  <i class="fab fa-google"></i></button>
+                          <button   type="button" class="btn btn-outline-dark">  <i class="fab fa-instagram"></i></button>
+                        </div>
+                        <div class="form-group">
+                          <label for="name">Name:</label>
+                          <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email address:</label>
+                          <input type="email" class="form-control" >
+                        </div>
+                        <div class="form-group">
+                          <label for="pwd">Password:</label>
+                          <input type="password" class="form-control" >
+                        </div>
+                        <div class="form-group">
+                          <label for="confirm">Confirm Password:</label>
+                          <input type="password" class="form-control" id="confirm">
+                        </div>
+                        <div style="text-align: center;"><button type="submit" class="btn btn-primary">Submit</button></div>
+                        
+                      </form>
+            </div>
+
+        </div>
+
+    </div>
+    <script>
+       const user = localStorage.key(0);
+        if(user !== null){
+          console.log(JSON.parse(localStorage.getItem(user)))
+          window.location.href = "index.html";
+        }
+        var toLogin = document.getElementById("toLogin")
+        var toSignup = document.getElementById("toSignup")
+        var loginForm = document.getElementById("loginForm")
+        var signupForm = document.getElementById("signupForm")
+        var motion = document.getElementById("motion")
+
+        toSignup.addEventListener("click" , ()=>{
+            motion.classList.remove("right")
+            motion.classList.add("left")
+            
+            setTimeout(()=>{
+                loginForm.style.display = "none"
+                signupForm.style.display = "list-item"
+            }
+                ,400)
+        })
+        toLogin.addEventListener("click" , ()=>{
+            motion.classList.remove("left")
+            motion.classList.add("right")
+            
+            setTimeout(()=>{
+                loginForm.style.display = "list-item"
+                signupForm.style.display = "none"
+            }
+                ,400)
+                toSignup.classList.add("bt")
+        })
+        console.log(document.querySelector("#skipBtn"))
+        document.querySelector("#skipBtn").addEventListener("click" ,  function(event){
+          event.preventDefault()
+          window.location.href = "role-choice.html"
+        })
+        document.querySelector("#loginSubmit").addEventListener("click" ,  function(event){
+          event.preventDefault()
+          email = document.querySelector("#email").value
+          pass = document.querySelector("#pwd").value
+
+          if(email !== "" && pass !== ""){
+            let obj = {}
+            obj["email"] = email
+            obj["pass"] = pass
+            console.log(obj)
+            localStorage.setItem("user",JSON.stringify(obj))
+            window.location.href="index.html"
+          }
+          
+        })
+
+    </script>
+    <script src="../javascript/js.js"></script>
+</body>
+</html>

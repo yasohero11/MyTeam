@@ -1,0 +1,54 @@
+body {
+   
+    height: 1000px;
+    margin:0px;
+    padding: 0px;
+    color: white
+    
+}
+
+
+h2 {
+    text-align: center;  
+    font-family:sans-serif;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}  
+
+
+ 
+/* Login as admin and as student buttons style*/
+.page-container div .Img
+{
+    height: 300px;
+    width: 300px;
+  
+
+}
+
+
+.page-container div
+{
+    position: relative;
+    display: inline-block;
+    margin: 12px;
+    left: 20%;
+    font-family:sans-serif;
+}
+.page-container h1
+{
+    text-align: center;
+}
+.chooseRole
+{
+    font-family: sans-serif;
+}
+
+.page-container div a img{
+    transition: 0.2s;
+    border: 1.5px solid rgb(129, 129, 129);
+}
+
+.page-container div a img:hover{
+    transform: scale(1.1);
+}

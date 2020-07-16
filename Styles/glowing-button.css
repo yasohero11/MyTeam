@@ -1,0 +1,85 @@
+.glowing{
+  width: 35px;
+  height: 35px;
+  position: relative;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 35px;
+}
+
+.glowing::before, .glowing::after {
+  content: "";
+  position: absolute;
+  width: 110%;
+  height: 110%;
+  border-radius: 30px;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.glowing:hover::before, .glowing:hover::after {
+  opacity: 1;
+}
+
+.glowing::after {
+  top: -2;
+  left: -20%;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+}
+
+.glowing::before {
+  top: -2;
+  left: 20%;
+  -webkit-filter: blur(20px);
+          filter: blur(20px);
+}
+
+.facebook {
+  background: linear-gradient(45deg, #3D90F9, #005ED6);
+}
+
+.facebook:after, .facebook:before {
+  background: linear-gradient(45deg, #3D90F9, #005ED6);
+}
+
+.orange {
+  background: linear-gradient(45deg, #ff0057, #e64a19);
+}
+
+.orange:after, .orange:before {
+  background: linear-gradient(45deg, #ff0057, #e64a19);
+}
+
+.green {
+  background: linear-gradient(45deg, rgba(142, 253, 130, 0.897), #2eda1f);
+}
+
+.green:after, .green:before {
+  background: linear-gradient(45deg, rgba(142, 253, 130, 0.897), #2eda1f);
+}
+.twitter{
+  background: #00bfff;
+}
+.twitter:after, .twitter:before {
+  background:  #00bfff;
+}
+.in{
+  background: #0e76a8 ;
+}
+.in:after, .in:before {
+  background:  #0e76a8 ;
+}
+.google{
+  background: linear-gradient(to right, #ed213a, #93291e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.google:after, .google:before {
+  background: linear-gradient(to right, #ed213a, #93291e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/*# sourceMappingURL=glowing-button.css.map */

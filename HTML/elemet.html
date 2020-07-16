@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+
+
+    <title>Home Page</title>
+
+    <link rel="stylesheet" href="../Styles/style.css">
+    <link rel="stylesheet" href="../Styles/layoutStyle.css">
+    <link rel="stylesheet" href="../Styles/glowing-button.css">
+    <link rel="stylesheet" href="../Styles/comments.css">
+    <link rel="stylesheet" href="../Styles/productStyle.css">
+    
+
+    <style>
+        #demoBtn{
+            position: absolute;
+            top: 10px;
+            left: 400px;
+            color: rgb(36, 36, 36);
+            background: grey;
+            outline: none;
+            border: none;
+            border-radius: 20px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">
+            <img
+                src="https://cdn1.iconfinder.com/data/icons/education-and-science-13/32/education_creative_idea_idea_book_creative_learning-512.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <!-- data target: is the items that you wanted in the slider-->
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+                <li class="nav-item items">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item items">
+                    <a class="nav-link" href="courses.html">Courses</a>
+                </li>
+                <li class="nav-item items">
+                    <a class="nav-link" href="activities.html">Activities</a>
+                </li>
+                <li class="nav-item items">
+                    <a class="nav-link" href="comptitions.html">Comptitions</a>
+                </li>
+                <li class="nav-item items">
+                    <a class="nav-link" href="aboutUs.html">About Us</a>
+                </li>
+
+                <li class="nav-item ml-auto"><a href="signup.html" id="loginBtn" class="nav-link">Login / Sign up</a>
+                </li>
+
+                <li id="profileIcon">
+                    <a href="profile.html">
+                        <div id="profile">
+                            <img src="../mark_aben3amy.jpg">
+                            <div id="nat"></div>
+                        </div>
+                    </a>
+                </li>
+
+
+                <li id="searchBtn" class="nav-item"><a class="nav-link" href="/search" style="font-size: 20px"><i
+                            class="fas fa-search"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="continer-fluid" id="productHead">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <img class="img-fluid" id="game-img" src="../p1.jpg">
+                <button type="button" class="btn btn-info">Enroll</button>
+                <button type="button" class="btn btn-info">Season Pass</button>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4" style="padding-left: 25px;">
+                <h2>How to manage time course</h2>
+                <p style="font-size: 100%;">
+                    It seems that there is never enough time in the day. But, since we all get the same 24 hours, why is
+                    it that some people achieve so much more with their time than others? The answer lies in good time
+                    management. The highest achievers manage their time exceptionally well. By using the time-management
+                    techniques in this section, you can improve your ability to function more effectively – even when
+                    time is tight and pressures are high. Good time management requires an important shift in focus from
+                    activities to results: being busy isn’t the same as being effective. (Ironically, the opposite is
+                    often closer to the truth.) Spending your day in a frenzy of activity often achieves less, because
+                    you’re dividing your attention between so many different tasks. Good time management lets you work
+                    smarter – not harder – so you get more done in less time.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center" id="info-card-container">
+            <div class="info-card">
+                <h5>Instructors</h5>
+                <p>Ahmed Mohamed, Khaled youssef</p>
+            </div>
+            <div class="info-card">
+                <h5>Publisher</h5>
+                <p>Deep Silver</p>
+            </div>
+            <div class="info-card">
+                <h5>Release Date</h5>
+                <p>Feb 15, 2019</p>
+            </div>
+            <div class="info-card">
+                <h5>Tags</h5>
+                <p>Programming, Python, GUI</p>
+            </div>
+            <div class="info-card">
+                <h5>Rateing</h5>
+                <p>8/10</p>
+            </div>
+            <div class="info-card">
+                <h5>Address</h5>
+                <p>Smart Vlige</p>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-3 ">
+                <h4>Editions</h4>
+            </div>
+
+            <div class="col-md-9" id="seson-pass">
+                <div>
+                    <img class="img-fluid"
+                        src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/90be1cbc-59fb-4d85-9ba0-2d1a6fe32fd7/db8gw2e-b8014897-8991-4b22-b73f-3b1e53162581.png/v1/fill/w_1024,h_576,q_80,strp/javascript_wallpaper_by_mrhudson_db8gw2e-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01NzYiLCJwYXRoIjoiXC9mXC85MGJlMWNiYy01OWZiLTRkODUtOWJhMC0yZDFhNmZlMzJmZDdcL2RiOGd3MmUtYjgwMTQ4OTctODk5MS00YjIyLWI3M2YtM2IxZTUzMTYyNTgxLnBuZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.fbVTlzKZTSzFfhw9T10duccfHAd9qpKtnNAKRbHSvkA">
+                </div>
+                <div id="desc">
+                    <h5>Day 1</h5>
+                    <p>The series originally focused on the World War II setting, with Infinity Ward developing the
+                        first (2003) and second (2005) titles in the series and Treyarch developing the third (2006).
+                        Call of Duty 4: Modern Warfare (2007) introduced
+                        a new, modern setting (2007) introduced a new, modern settin(2007) introduced a new</p>
+                </div>
+                <hr style="background: white; clear: both;width: 90%;">
+                <div id="seson-pass-bottom">
+                    <button type="button" class="btn btn-primary">Primary</button>
+                    <div style="float: right;">
+                        <strong>$11.24</strong>
+                        <br>
+                        <p>Sale ends 12/2/2019 at 6:00 pm</p>
+                        <br>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-md-3 ">
+
+            </div>
+
+            <div class="col-md-9" id="seson-pass">
+                <div>
+                    <img class="img-fluid"
+                        src="https://youteam.io/blog/wp-content/uploads/2018/05/sites-built-with-django.jpg">
+                </div>
+                <div id="desc">
+                    <h5>Day 2</h5>
+                    <p>The series originally focused on the World War II setting, with Infinity Ward developing the
+                        first (2003) and second (2005) titles in the series and Treyarch developing the third (2006).
+                        Call of Duty 4: Modern Warfare (2007) introduced
+                        a new, modern setting (2007) introduced a new, modern settin(2007) introduced a new</p>
+                </div>
+                <hr style="background: white; clear: both;width: 90%;">
+                <div id="seson-pass-bottom">
+                    <button type="button" class="btn btn-primary">Primary</button>
+                    <div style="float: right;">
+                        <strong>$11.24</strong>
+                        <br>
+                        <p>Sale ends 12/2/2019 at 6:00 pm</p>
+                        <br>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-md-3 ">
+
+            </div>
+
+            <div class="col-md-9" id="seson-pass">
+                <div>
+                    <img class="img-fluid"
+                        src="https://media.cloudbooklet.com/wp-content/uploads/2018/12/03053943/5e5b582b-how-to-install-flask-on-ubuntu-18.04-with-uwsgi-nginx-on-google-cloud.jpg">
+                </div>
+                <div id="desc">
+                    <h5>Day 3</h5>
+                    <p>The series originally focused on the World War II setting, with Infinity Ward developing the
+                        first (2003) and second (2005) titles in the series and Treyarch developing the third (2006).
+                        Call of Duty 4: Modern Warfare (2007) introduced
+                        a new, modern setting (2007) introduced a new, modern settin(2007) introduced a new</p>
+                </div>
+                <hr style="background: white; clear: both;width: 90%;">
+                <div id="seson-pass-bottom">
+                    <button type="button" class="btn btn-primary">Primary</button>
+                    <div style="float: right;">
+                        <strong>$11.24</strong>
+                        <br>
+                        <p>Sale ends 12/2/2019 at 6:00 pm</p>
+                        <br>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h4>Spcifications</h4>
+                    </div>
+                    <div class="col-md-9 col-sm-12 info" id="firstInfo">
+                        <div>
+                            <h5>Day 1</h5>
+                            <h6>Intoduction</h6>
+                            <P>10:00 PM</P>
+                            <h6>If statement</h6>
+                            <P>10:30 PM</P>
+                            <h6>Switch Statement</h6>
+                            <P>11:00 PM</P>
+                            <h6>Loops</h6>
+                            <P>11:30 PM
+                            </P>
+                            <h6>Coffee Break</h6>
+                            <p>12:00 AM</p>
+                            <h6>Other</h6>
+                            <p>Sound Card: DirectX Compatible
+                            </p>
+                            <hr>
+                        </div>
+                        <div>
+                            <h5>Recommended</h5>
+                            <h6>Intoduction</h6>
+                            <P>10:00 PM</P>
+                            <h6>If statement</h6>
+                            <P>10:30 PM</P>
+                            <h6>Switch Statement</h6>
+                            <P>11:00 PM</P>
+                            <h6>Loops</h6>
+                            <P>11:30 PM
+                            </P>
+                            <h6>Coffee Break</h6>
+                            <p>12:00 AM</p>
+                            <h6>Other</h6>
+                            <p>Sound Card: DirectX Compatible
+                            </p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-3">
+                        <h4>Available Platform</h4>
+                    </div>
+                    <div class="col-md-9 info" id="lastInfo">
+                        <div class="container-fluid " style="margin:0px; width: 100%;">
+                            <div class="row justify-content-center" style="width: 100%;">
+                                <div><i class="fab fa-windows"></i> MICROSOFT</div>
+                                <div><i class="fab fa-react"></i> REACT</div>
+                                <div><i class="fab fa-adobe"></i> ADOBE</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" style="margin-top: 50px;" id="follow-us-panle">
+                <div class="row ">
+                    <div class="col-md-3">
+                        <h4>Follow Us</h4>
+                    </div>
+                    <div class="col-md-9" id="follow-us">
+                        <div class="container" id="follow-con">
+                            <div class="row justify-content-center" style="width: 100%;">
+                                <a href="#"><i class="fab fa-discord"></i></a>
+                                <a href="#"><i class="fab fa-twitch"></i></a>
+                                <a href="#"><i class="fab fa-twitter"> </i></a>
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fas fa-globe-europe"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" style="margin-top: 50px;" >
+                
+                <div class="row ">
+                    <div class="col-md-3">
+                        <h4>Follow Us</h4>
+                    </div>
+                    <div class="col-md-9 " style="background: #2A2A2A; color: white;" >
+                        <div class="comments-area border m-2">
+                            <div class="comments p-2">
+                                <h4> Comments</h4>
+            
+            
+                                <div class="comment">
+                                    <div class=" media  p-3" style="position: relative;">
+                                        <button id="demoBtn"><i class="far fa-handshake"></i> Need Help!</button>
+                                        <img src="../tree.webp" alt="John Doe" class="mr-2" style="width:60px; height: 60px;">
+                                        <div class="media-body">
+                                            <h6>
+                                                Youssef Osama <small><i>Posted on 7/15/2020 2:15</i></small>
+                                            </h6>
+                                            <p>
+                                                some comment
+                                            </p>
+                                        </div>
+                                    </div>
+            
+                                    <div style="text-align: right; color: rgb(28, 92, 211); clear: both; margin-bottom: 10px ;">
+                                        <a href="#" class="p-1">Replay</a></div>
+            
+                                </div>
+
+                                <div class="comment">
+                                    <div class=" media  p-3">
+                                        <img src="../tree.webp" alt="John Doe" class="mr-2" style="width:60px; height: 60px;">
+                                        <div class="media-body">
+                                            <h6>
+                                                Youssef Osama <small><i>Posted on 7/15/2020 2:15</i></small>
+                                            </h6>
+                                            <p>
+                                                some comment
+                                            </p>
+                                        </div>
+                                    </div>
+            
+                                    <div style="text-align: right; color: rgb(28, 92, 211); clear: both; margin-bottom: 10px ;">
+                                        <a href="#" class="p-1">Replay</a></div>
+            
+                                </div>
+                                <div class="comment">
+                                    <div class=" media  p-3">
+                                        <img src="../tree.webp" alt="John Doe" class="mr-2" style="width:60px; height: 60px;">
+                                        <div class="media-body">
+                                            <h6>
+                                                Youssef Osama <small><i>Posted on 7/15/2020 2:15</i></small>
+                                            </h6>
+                                            <p>
+                                                some comment
+                                            </p>
+                                        </div>
+                                    </div>
+            
+                                    <div style="text-align: right; color: rgb(28, 92, 211); clear: both; margin-bottom: 10px ;">
+                                        <a href="#" class="p-1">Replay</a></div>
+            
+                                </div>
+            
+            
+                            </div>
+                            <hr>
+                            <form class="comment-field onsubmit=" event.preventDefault();">
+                                <input type="text" placeholder="Write your comment here ..." style="padding-left: 10px;">
+                            </form>
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            
+
+            <footer class="page-footer font-small stylish-color-dark pt-4" style="margin: auto;">
+
+
+                <!-- Social buttons -->
+                <ul class="list-unstyled list-inline text-center">
+                    <li class="glowing facebook list-inline-item">
+                        <a class=" btn-floating btn-fb mx-1">
+                            <i class="fab fa-facebook-f"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item glowing twitter">
+                        <a class="btn-floating btn-tw mx-1">
+                            <i class="fab fa-twitter"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item glowing google">
+                        <a class="btn-floating btn-gplus mx-1">
+                            <i class="fab fa-google-plus-g"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item glowing in">
+                        <a class="btn-floating btn-li mx-1">
+                            <i class="fab fa-linkedin-in"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item glowing orange">
+                        <a class="btn-floating btn-dribbble mx-1">
+                            <i class="fab fa-dribbble"> </i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- Social buttons -->
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3" style="color: rgb(86, 209, 75);">© Guess What! Made with
+                    Love <i style="color: rgb(83, 221, 255);" class="far fa-heart"></i>
+                    <a href="https://github.com/yasohero11/My-awesome-group-"> Project <i
+                            class="fab fa-github-alt"></i></a>
+                </div>
+                <!-- Copyright -->
+
+            </footer>
+
+            <script src="https://kit.fontawesome.com/1b6dbc5d1f.js"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+                integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+                integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk=" crossorigin="anonymous"></script>
+            <script src="../javascript/js.js"></script>
+            <script>
+                const searchBtn = document.getElementById("searchBtn");
+                const navText = document.getElementById("navText");
+                searchBtn.addEventListener('click', () => {
+                    console.log("en")
+                    navText.classList.add("onHoverScale")
+                    navText.focus()
+                })
+                navText.addEventListener("focusout", () => {
+                    navText.classList.remove("onHoverScale")
+                })
+            </script>
+
+</body>
+
+</html>
